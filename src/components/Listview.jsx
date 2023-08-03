@@ -96,7 +96,7 @@ const Listview = () => {
 
   const cancelEdit = () => {
     setIsEdit(false)
-  }
+  } 
   const handleInput = (e) => {
     let { id, username, dob, gender, email, picture, country, description } = userCloneObj;
     if(e.target.id === 'username'){
